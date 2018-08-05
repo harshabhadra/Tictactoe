@@ -31,7 +31,7 @@ public class PlayActivity extends AppCompatActivity {
 
                 board[tag] = turn;
 
-                if (turn == 0) {
+                if (turn == 1) {
 
                     isTapped.setImageResource(R.drawable.cross);
                     isTapped.animate().rotationY(360).setDuration(1000);
